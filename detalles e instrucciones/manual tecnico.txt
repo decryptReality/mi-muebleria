@@ -1,0 +1,21 @@
+MYSQL
+
+para registrar la bases de datos en mysql
+	source .\db.sql
+para registrar el usuario para poder hacer las consultas a travez de la app web
+	source .\usuario.sql
+para registrar al usuario y la base de datos
+	source .\usuario+db.sql
+	
+APP WEB
+	para instalar la app web 
+		copiar el archivo WAR en el directorio Tomcat/webapps
+	para iniciar la app web
+		desde localhost:8080/mi-muebleria/entrar.jsp
+		ingresar con alguno de los siguientes usuarios:
+			(usuario,contrasenia,area de trabajo)
+			(U671,mdkuczx,1)
+			(U660,udnarey,2)
+			(U638,rbvfetn,3)
+			
+			
